@@ -1,0 +1,9 @@
+# Ignore build directory
+build/
+
+# Ignore SDK configuration file
+/sdkconfig
+
+# Ignore temporary files
+*.old
+*.lock

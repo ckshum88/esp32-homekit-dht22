@@ -1,0 +1,3 @@
+[submodule "components/DHT22"]
+	path = components/DHT22
+	url = https://github.com/Andrey-m/DHT22-lib-for-esp-idf.git
