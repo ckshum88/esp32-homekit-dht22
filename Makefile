@@ -4,7 +4,7 @@
 #
 
 HOMEKIT_PATH ?= $(abspath $(shell pwd)/../..)
-COMMON_COMPONENT_PATH ?= $(abspath $(shell pwd)/../common)
+COMMON_COMPONENT_PATH ?= $(HOMEKIT_PATH)/examples/common
 
 PROJECT_NAME := esp32-homekit-dht22
 EXTRA_COMPONENT_DIRS += $(HOMEKIT_PATH)/components/
@@ -12,4 +12,3 @@ EXTRA_COMPONENT_DIRS += $(HOMEKIT_PATH)/components/homekit
 EXTRA_COMPONENT_DIRS += $(COMMON_COMPONENT_PATH)
 
 include $(IDF_PATH)/make/project.mk
-
