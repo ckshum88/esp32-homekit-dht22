@@ -1,7 +1,7 @@
 # esp32-homekit-dht22
 ESP32 Homekit DHT22 sensor based on Espressif's ESP-IDF and ESP-Homekit-SDK
 
-![Hardware image](https://github.com/ckshum88/esp32-homekit-dht22/blob/main/esp32_dht22.jpg?raw=true)
+![Hardware image](https://github.com/ckshum88/esp32-homekit-dht22/blob/main/image/esp32_dht22.jpg?raw=true)
 
 ## Compiling
 
